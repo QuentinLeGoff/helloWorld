@@ -1,0 +1,22 @@
+package main;
+
+import java.util.Scanner;
+
+public class main {
+	
+
+	public int addition(int x, int y){
+		return x+y;
+	}
+
+	public static void main (String[] args){
+		System.out.println("Hello World");
+		System.out.println("Veuillez entrer un x et un y");
+		
+		Scanner input = new Scanner (System.in);
+		
+		int x = input.nextInt();
+		int y = input.nextInt();
+		System.out.println(addition(x,y);)
+	}
+}
