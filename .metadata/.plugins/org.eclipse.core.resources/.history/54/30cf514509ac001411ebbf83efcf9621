@@ -25,10 +25,8 @@ public class main {
 		
 		int x = input.nextInt();
 		int y = input.nextInt();
-		
-		System.out.println("Voici les résultats :");
 		System.out.println("addition : "+addition(x,y));
 		System.out.println("soustraction : "+soustraction(x,y));
-		System.out.println("multiplication : "+multiplication(x,y));
+		System.out.println("multiplication haha : "+multiplication(x,y));
 	}
 }
