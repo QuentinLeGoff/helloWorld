@@ -8,10 +8,6 @@ public class main {
 	static int addition(int x, int y){
 		return x+y;
 	}
-	
-	static int soustraction(int x, int y){
-		return x-y;
-	}
 
 	public static void main (String[] args){
 		System.out.println("Hello World");
@@ -21,7 +17,6 @@ public class main {
 		
 		int x = input.nextInt();
 		int y = input.nextInt();
-		System.out.println("addition : "+addition(x,y));
-		System.out.println("soustraction : "+soustraction(x,y));
+		System.out.println(addition(x,y));
 	}
 }
